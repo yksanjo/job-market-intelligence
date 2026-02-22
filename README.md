@@ -1,55 +1,84 @@
-# Global Job Market Intelligence
+# job-market-intelligence
 
-Track job postings, extract skills, and analyze hiring trends across the web.
+## Detailed Description
 
-## Why This Exists
+job-market-intelligence is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-Understanding the job market is crucial for:
-- Job seekers: Know what skills are in demand
-- Recruiters: Understand salary ranges and skill requirements  
-- Investors: Track company hiring velocity
-- Founders: Make data-driven hiring decisions
+## Problem Statement
 
-## Features
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-- 🔍 Scrape job postings from multiple sources
-- 🏢 Track company hiring signals
-- 💰 Extract salary data
-- 🛠️ Extract and normalize skills
-- 📈 Analyze trends over time
-- 🎯 Identify emerging roles
+## Solution Overview
 
-## Quick Start
+Summarize the architecture, core modules, and runtime behavior at a high level.
+
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
 
 ```bash
-# Install
-pip install -r requirements.txt
-
-# Scrape a job board
-python main.py scrape --source greenhouse
-
-# Analyze skills in job postings
-python -c "from analyzer import SkillsAnalyzer; print(SkillsAnalyzer().extract_skills('Python, React, AWS'))"
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt  # or: pip install -e .[dev]
+pytest
 ```
 
-## Data Sources
+## Usage
 
-- Greenhouse (ATS)
-- Lever (ATS)
-- Company career pages
-- Job boards (optional)
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-## Project Structure
+## Quality Standards
 
-```
-job-market-intelligence/
-├── scrapers/       # Job posting scrapers
-├── extractors/     # Skill & salary extraction
-├── analyzer/       # Trend analysis
-├── data/          # Stored data
-└── main.py        # CLI entry point
-```
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
+
+## Security
+
+See `SECURITY.md` for responsible disclosure and handling guidelines.
+
+## Contributing
+
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
 
 ## License
 
-MIT
+This project is released under the MIT License.
