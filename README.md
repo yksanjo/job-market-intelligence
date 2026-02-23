@@ -1,5 +1,12 @@
 # job-market-intelligence
 
+Production-grade project scaffold focused on reliability, maintainability, and fast onboarding.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/yksanjo/job-market-intelligence/ci.yml?branch=main&label=ci)](https://github.com/yksanjo/job-market-intelligence/actions)
+![License](https://img.shields.io/github/license/yksanjo/job-market-intelligence)
+![Last Commit](https://img.shields.io/github/last-commit/yksanjo/job-market-intelligence)
+![Repo Size](https://img.shields.io/github/repo-size/yksanjo/job-market-intelligence)
+
 ## Detailed Description
 
 job-market-intelligence is maintained as an industry-grade software project with production-ready engineering practices.  
