@@ -1,0 +1,21 @@
+# Core
+httpx>=0.25.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+pandas>=2.0.0
+
+# Database
+sqlalchemy>=2.0.0
+aiosqlite>=0.19.0
+
+# CLI
+click>=8.1.0
+rich>=13.0.0
+
+# Data
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# NLP for skill extraction
+# spacy>=3.7.0
+# (optional: uncomment when ready for NLP)
